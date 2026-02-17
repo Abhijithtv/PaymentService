@@ -60,6 +60,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'bank-web-app-00'
-          slot-name: 'Production'
+          slot-name: 'stg'
           package: .
           
