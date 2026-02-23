@@ -1,3 +1,5 @@
+using PaymentAPI.Services;
+using Serilog;
 
 namespace PaymentAPI
 {
@@ -7,6 +9,10 @@ namespace PaymentAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            Log.Logger = new LoggerConfiguration()
+            .ReadFrom.Configuration(builder.Configuration)
+            .CreateLogger();
+
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -14,6 +20,8 @@ namespace PaymentAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddSingleton<ILogService, LogService>();
+            builder.Host.UseSerilog();
             var app = builder.Build();
 
             /* // Configure the HTTP request pipeline.
