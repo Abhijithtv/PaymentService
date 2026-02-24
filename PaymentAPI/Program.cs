@@ -21,7 +21,11 @@ namespace PaymentAPI
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddSingleton<ILogService, LogService>();
-            builder.Host.UseSerilog();
+
+            if (builder.Configuration.GetValue<bool>("UseSerilog"))
+            {
+                builder.Host.UseSerilog();
+            }
             var app = builder.Build();
 
             /* // Configure the HTTP request pipeline.
