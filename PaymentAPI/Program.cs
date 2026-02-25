@@ -26,6 +26,13 @@ namespace PaymentAPI
             {
                 builder.Host.UseSerilog();
             }
+
+            if (builder.Configuration.GetValue<bool>("UseApplicationInsights"))
+            {
+                builder.Services.AddApplicationInsightsTelemetry();
+            }
+
+
             var app = builder.Build();
 
             /* // Configure the HTTP request pipeline.

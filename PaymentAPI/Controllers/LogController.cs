@@ -26,5 +26,19 @@ namespace PaymentAPI.Controllers
             logService.LogWarning(warning);
             return Ok(true);
         }
+
+        [HttpGet("debug")]
+        public IActionResult LogDebug([FromQuery] string str)
+        {
+            logService.LogDebug(str);
+            return Ok(true);
+        }
+
+        [HttpGet("critical")]
+        public IActionResult LogCritical([FromQuery] string str)
+        {
+            logService.LogCritical(str);
+            return Ok(true);
+        }
     }
 }
