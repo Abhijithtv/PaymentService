@@ -488,3 +488,4 @@ $RECYCLE.BIN/
 # Publish profiles (if not needed)
 **/Properties/PublishProfiles/
 
+/UserAzureFunctions/Properties/serviceDependencies.json

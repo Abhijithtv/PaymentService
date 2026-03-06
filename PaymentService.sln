@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentAPI", "PaymentAPI\PaymentAPI.csproj", "{3070C6B3-286C-48B2-91AA-63F9D7D30EA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataArchivalJob", "DataArchivalJob\DataArchivalJob.csproj", "{96F6C4E9-184B-444A-A438-EAC253822543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataArchivalJob", "DataArchivalJob\DataArchivalJob.csproj", "{96F6C4E9-184B-444A-A438-EAC253822543}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserAzureFunctions", "UserAzureFunctions\UserAzureFunctions.csproj", "{1285E7E7-A692-4A26-B36C-6D1F13CED4BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{96F6C4E9-184B-444A-A438-EAC253822543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96F6C4E9-184B-444A-A438-EAC253822543}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96F6C4E9-184B-444A-A438-EAC253822543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1285E7E7-A692-4A26-B36C-6D1F13CED4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1285E7E7-A692-4A26-B36C-6D1F13CED4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1285E7E7-A692-4A26-B36C-6D1F13CED4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1285E7E7-A692-4A26-B36C-6D1F13CED4BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
