@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 
-namespace UserAzureFunctions.Functions;
+namespace UserAzureFunctions.Functions.Misc;
 
 public class ErrorFunction
 {
