@@ -1,20 +1,17 @@
-using Microsoft.Azure.Functions.Worker;
-using Microsoft.Extensions.Logging;
-
 namespace UserAzureFunctions.Functions.TimeTriggered;
 
 public class TimeTriggeredAzFunction
 {
-    private readonly ILogger _logger;
+    /*  private readonly ILogger _logger;
 
-    public TimeTriggeredAzFunction(ILoggerFactory loggerFactory)
-    {
-        _logger = loggerFactory.CreateLogger<TimeTriggeredAzFunction>();
-    }
+      public TimeTriggeredAzFunction(ILoggerFactory loggerFactory)
+      {
+          _logger = loggerFactory.CreateLogger<TimeTriggeredAzFunction>();
+      }
 
-    [Function("TimeTriggeredAzFunction")]
-    public void Run([TimerTrigger("*/10 * * * * *")] TimerInfo myTimer)
-    {
+      [Function("TimeTriggeredAzFunction")]*/
+    //public void Run([TimerTrigger("*/10 * * * * *")] TimerInfo myTimer)
+    /*{
         _logger.LogInformation("C# Timer trigger function executed at: {executionTime}", DateTime.Now);
 
         if (myTimer.IsPastDue)
@@ -26,5 +23,5 @@ public class TimeTriggeredAzFunction
         {
             _logger.LogInformation("Next timer schedule at: {nextSchedule}", myTimer.ScheduleStatus.Next);
         }
-    }
+    }*/
 }
