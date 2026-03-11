@@ -13,7 +13,7 @@ public class PaymentProcessingFunc
         _logger = logger;
     }
 
-    [Function(nameof(PaymentProcessingFunc))]
+    //[Function(nameof(PaymentProcessingFunc))]
     public async Task Run(
         [ServiceBusTrigger("payment-processing", Connection = "Payment_Processing_Queue_Conn_Str")]
         ServiceBusReceivedMessage message,

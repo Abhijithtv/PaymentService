@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataArchivalJob", "DataArch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserAzureFunctions", "UserAzureFunctions\UserAzureFunctions.csproj", "{1285E7E7-A692-4A26-B36C-6D1F13CED4BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusConnector", "ServiceBusConnector\ServiceBusConnector.csproj", "{ACCF9702-AECD-4D80-8A07-3DA964B72A5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusConnector", "ServiceBusConnector\ServiceBusConnector.csproj", "{ACCF9702-AECD-4D80-8A07-3DA964B72A5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
