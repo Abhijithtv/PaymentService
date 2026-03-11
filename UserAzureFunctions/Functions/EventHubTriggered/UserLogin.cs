@@ -12,7 +12,7 @@ public class UserLogin
         _logger = logger;
     }
 
-    [Function(nameof(UserLogin))]
+    // [Function(nameof(UserLogin))]
     public void Run([EventHubTrigger("login-event", Connection = "User_Login_Event_Conn_Str")] EventData[] events)
     {
         foreach (EventData @event in events)

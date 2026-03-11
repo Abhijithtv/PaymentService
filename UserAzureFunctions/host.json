@@ -7,8 +7,9 @@
       }
     },
     "logLevel": {
-      "default": "Error",
-      "Azure.Messaging.ServiceBus": "Warning" 
+      "default": "Information",
+      "Azure.Core": "Error",
+      "Azure.Storage": "Error"
     }
   }
 }
