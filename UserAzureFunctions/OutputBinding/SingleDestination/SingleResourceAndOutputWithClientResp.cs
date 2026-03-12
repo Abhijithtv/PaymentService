@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 using System.Net;
 using UserAzureFunctions.OutputBinding.Models;
 
-namespace UserAzureFunctions.OutputBinding;
+namespace UserAzureFunctions.OutputBinding.SingleDestination;
 
 public class SingleResourceAndOutputWithClientResp
 {

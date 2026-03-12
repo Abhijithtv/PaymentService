@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Configuration;
 
-namespace UserAzureFunctions.OutputBinding;
+namespace UserAzureFunctions.OutputBinding.SingleDestination;
 
 public class OutputBindingUsingSDK
 {
